@@ -12,10 +12,14 @@ export class AdddataComponent implements OnInit {
 
 name="Lara"
 
+status:boolean=false
+
 readValues=()=>{
   let data={
     "name":this.name="Raju"
   }
+  console.log(data)
+this.status=true
 }
 
   ngOnInit(): void {

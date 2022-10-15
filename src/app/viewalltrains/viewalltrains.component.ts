@@ -11,10 +11,13 @@ export class ViewalltrainsComponent implements OnInit {
 
   name="Elda"
   
+status:boolean=false
+
   readValues=()=>{
     let data={
      "name":this.name="Raju" 
     }
+    this.status=true
   }
 
 
