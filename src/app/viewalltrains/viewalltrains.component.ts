@@ -10,6 +10,15 @@ export class ViewalltrainsComponent implements OnInit {
   constructor() { }
 
   name="Elda"
+  
+  readValues=()=>{
+    let data={
+     "name":this.name="Raju" 
+    }
+  }
+
+
+  
   ngOnInit(): void {
   }
 

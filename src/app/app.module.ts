@@ -6,18 +6,23 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ViewalltrainsComponent } from './viewalltrains/viewalltrains.component';
+import { AdddataComponent } from './adddata/adddata.component';
 
 
 const appRoutes:Routes=[
   {
     path:"",component:ViewalltrainsComponent
+  },
+  {
+    path:"add",component:AdddataComponent
   }
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
-    ViewalltrainsComponent
+    ViewalltrainsComponent,
+    AdddataComponent
   ],
   imports: [
     BrowserModule,
